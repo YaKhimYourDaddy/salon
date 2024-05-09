@@ -1,0 +1,450 @@
+/* {
+    position        : relative;
+    width           : 1440px;
+    height          : 900px;
+    background-color: var(--1-color-modes-colors-background-bg-primary);
+} */
+
+.content {
+    display         : flex;
+    flex-direction  : column;
+    width           : 720px;
+    height          : 901px;
+    align-items     : center;
+    gap             : var(--3-spacing-spacing-5xl);
+    padding         : 48px 32px;
+    position        : absolute;
+    top             : 0;
+    left            : 720px;
+    background-color: var(--1-color-modes-main-background-bg-primary);
+    border-radius   : var(--2-radius-radius-3xl);
+}
+
+.logo-normal {
+    position: relative;
+    width   : 238.45px;
+    height  : 92px;
+}
+
+.header-and-form {
+    display       : flex;
+    flex-direction: column;
+    max-width     : 420px;
+    width         : 420px;
+    align-items   : flex-start;
+    gap           : var(--3-spacing-spacing-4xl);
+    position      : relative;
+    flex          : 0 0 auto;
+}
+
+.text {
+    position      : relative;
+    align-self    : stretch;
+    margin-top    : -1px;
+    font-family   : var(--display-sm-bold-font-family);
+    font-weight   : var(--display-sm-bold-font-weight);
+    color         : var(--1-color-modes-colors-text-text-primary-900);
+    font-size     : var(--display-sm-bold-font-size);
+    text-align    : center;
+    letter-spacing: var(--display-sm-bold-letter-spacing);
+    line-height   : var(--display-sm-bold-line-height);
+    font-style    : var(--display-sm-bold-font-style);
+}
+
+.text-wrapper {
+    font-weight   : var(--display-sm-bold-font-weight);
+    font-family   : var(--display-sm-bold-font-family);
+    font-style    : var(--display-sm-bold-font-style);
+    letter-spacing: var(--display-sm-bold-letter-spacing);
+    line-height   : var(--display-sm-bold-line-height);
+    font-size     : var(--display-sm-bold-font-size);
+}
+
+.div {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    gap           : var(--3-spacing-spacing-3xl-duplicate);
+    position      : relative;
+    align-self    : stretch;
+    width         : 100%;
+    flex          : 0 0 auto;
+    border-radius : var(--3-spacing-spacing-lg-duplicate);
+}
+
+.form {
+    display       : flex;
+    flex-direction: column;
+    align-items   : flex-start;
+    gap           : var(--3-spacing-spacing-2xl);
+    position      : relative;
+    align-self    : stretch;
+    width         : 100%;
+    flex          : 0 0 auto;
+}
+
+.input-line {
+    align-items: flex-start;
+    gap        : 16px;
+    align-self : stretch;
+    width      : 100%;
+    flex       : 0 0 auto;
+    display    : flex;
+    position   : relative;
+}
+
+.input-field {
+    flex-direction: column;
+    align-items   : flex-start;
+    gap           : var(--3-spacing-spacing-sm);
+    flex          : 1;
+    flex-grow     : 1;
+    display       : flex;
+    position      : relative;
+}
+
+.div-2 {
+    display       : flex;
+    flex-direction: column;
+    align-items   : flex-start;
+    gap           : var(--3-spacing-spacing-sm);
+    position      : relative;
+    align-self    : stretch;
+    width         : 100%;
+    flex          : 0 0 auto;
+}
+
+.label {
+    display    : flex;
+    align-items: flex-end;
+    position   : relative;
+    align-self : stretch;
+    width      : 100%;
+    flex       : 0 0 auto;
+}
+
+.label-2 {
+    display    : flex;
+    align-items: center;
+    position   : relative;
+    flex       : 1;
+    flex-grow  : 1;
+}
+
+.label-value {
+    position      : relative;
+    width         : fit-content;
+    margin-top    : -1px;
+    font-family   : var(--text-sm-semibold-font-family);
+    font-weight   : var(--text-sm-semibold-font-weight);
+    color         : var(--1-color-modes-main-text-text-secondary-700);
+    font-size     : var(--text-sm-semibold-font-size);
+    letter-spacing: var(--text-sm-semibold-letter-spacing);
+    line-height   : var(--text-sm-semibold-line-height);
+    white-space   : nowrap;
+    font-style    : var(--text-sm-semibold-font-style);
+}
+
+.required {
+    position      : relative;
+    width         : fit-content;
+    margin-top    : -1px;
+    font-family   : var(--text-sm-bold-font-family);
+    font-weight   : var(--text-sm-bold-font-weight);
+    color         : var(--1-color-modes-main-text-text-error-primary-600);
+    font-size     : var(--text-sm-bold-font-size);
+    letter-spacing: var(--text-sm-bold-letter-spacing);
+    line-height   : var(--text-sm-bold-line-height);
+    white-space   : nowrap;
+    font-style    : var(--text-sm-bold-font-style);
+}
+
+.input {
+    height          : 44px;
+    align-items     : center;
+    gap             : var(--3-spacing-spacing-md);
+    padding         : 10px 14px;
+    align-self      : stretch;
+    width           : 100%;
+    background-color: var(--1-color-modes-main-background-bg-primary);
+    border-radius   : var(--2-radius-radius-md);
+    border          : 1px solid;
+    border-color    : var(--1-color-modes-main-border-border-secondary);
+    display         : flex;
+    position        : relative;
+    box-shadow      : var(--shadows-shadow-off-shadow-xs-off);
+}
+
+.content-2 {
+    position          : relative;
+    flex-grow         : 1;
+    border            : none;
+    background        : none;
+    flex              : 1;
+    margin-top        : -1px;
+    font-family       : var(--text-sm-regular-font-family);
+    font-weight       : var(--text-sm-regular-font-weight);
+    color             : var(--1-color-modes-main-text-text-placeholder);
+    font-size         : var(--text-sm-regular-font-size);
+    letter-spacing    : var(--text-sm-regular-letter-spacing);
+    line-height       : var(--text-sm-regular-line-height);
+    overflow          : hidden;
+    text-overflow     : ellipsis;
+    display           : -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    font-style        : var(--text-sm-regular-font-style);
+    padding           : 0;
+}
+
+.div-wrapper {
+    display    : flex;
+    align-items: center;
+    gap        : var(--3-spacing-spacing-md);
+    position   : relative;
+    flex       : 1;
+    flex-grow  : 1;
+}
+
+.text-2 {
+    position          : relative;
+    flex              : 1;
+    margin-top        : -1px;
+    font-family       : var(--text-sm-regular-font-family);
+    font-weight       : var(--text-sm-regular-font-weight);
+    color             : var(--1-color-modes-main-text-text-placeholder);
+    font-size         : var(--text-sm-regular-font-size);
+    letter-spacing    : var(--text-sm-regular-letter-spacing);
+    line-height       : var(--text-sm-regular-line-height);
+    overflow          : hidden;
+    text-overflow     : ellipsis;
+    display           : -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    font-style        : var(--text-sm-regular-font-style);
+}
+
+.ic-outline-security {
+    position: relative;
+    width   : 20px;
+    height  : 20px;
+}
+
+.actions {
+    display       : flex;
+    flex-direction: column;
+    align-items   : flex-start;
+    gap           : var(--3-spacing-spacing-3xl);
+    position      : relative;
+    align-self    : stretch;
+    width         : 100%;
+    flex          : 0 0 auto;
+}
+
+.buttons-button {
+    all             : unset;
+    box-sizing      : border-box;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    gap             : var(--3-spacing-spacing-sm);
+    padding         : 10px var(--3-spacing-spacing-xl) 10px var(--3-spacing-spacing-xl);
+    position        : relative;
+    align-self      : stretch;
+    width           : 100%;
+    flex            : 0 0 auto;
+    background-color: var(--1-color-modes-component-colors-components-buttons-primary-button-primary-bg);
+    border-radius   : var(--2-radius-radius-md);
+    overflow        : hidden;
+    border          : 1px solid;
+    border-color    : var(--1-color-modes-component-colors-components-buttons-primary-button-primary-border);
+    box-shadow      : var(--shadows-shadow-off-shadow-xs-off);
+}
+
+.text-padding {
+    display        : inline-flex;
+    align-items    : center;
+    justify-content: center;
+    padding        : 0px var(--3-spacing-spacing-xxs) 0px var(--3-spacing-spacing-xxs);
+    position       : relative;
+    flex           : 0 0 auto;
+}
+
+.text-3 {
+    position      : relative;
+    width         : fit-content;
+    margin-top    : -1px;
+    font-family   : var(--text-md-semibold-font-family);
+    font-weight   : var(--text-md-semibold-font-weight);
+    color         : var(--1-color-modes-component-colors-components-buttons-primary-button-primary-fg);
+    font-size     : var(--text-md-semibold-font-size);
+    letter-spacing: var(--text-md-semibold-letter-spacing);
+    line-height   : var(--text-md-semibold-line-height);
+    white-space   : nowrap;
+    font-style    : var(--text-md-semibold-font-style);
+}
+
+.by-clicking-get {
+    position      : relative;
+    align-self    : stretch;
+    font-family   : var(--text-sm-regular-font-family);
+    font-weight   : var(--text-sm-regular-font-weight);
+    color         : var(--1-color-modes-main-text-text-secondary-700);
+    font-size     : var(--text-sm-regular-font-size);
+    letter-spacing: var(--text-sm-regular-letter-spacing);
+    line-height   : var(--text-sm-regular-line-height);
+    font-style    : var(--text-sm-regular-font-style);
+}
+
+.span {
+    color         : #344054;
+    font-family   : var(--text-sm-regular-font-family);
+    font-style    : var(--text-sm-regular-font-style);
+    font-weight   : var(--text-sm-regular-font-weight);
+    letter-spacing: var(--text-sm-regular-letter-spacing);
+    line-height   : var(--text-sm-regular-line-height);
+    font-size     : var(--text-sm-regular-font-size);
+}
+
+.text-wrapper-2 {
+    color         : #0a5dcb;
+    font-family   : var(--text-sm-regular-font-family);
+    font-style    : var(--text-sm-regular-font-style);
+    font-weight   : var(--text-sm-regular-font-weight);
+    letter-spacing: var(--text-sm-regular-letter-spacing);
+    line-height   : var(--text-sm-regular-line-height);
+    font-size     : var(--text-sm-regular-font-size);
+}
+
+.content-divider {
+    display    : flex;
+    align-items: center;
+    gap        : var(--3-spacing-spacing-md);
+    position   : relative;
+    align-self : stretch;
+    width      : 100%;
+    flex       : 0 0 auto;
+}
+
+.divider {
+    position        : relative;
+    flex            : 1;
+    flex-grow       : 1;
+    height          : 1px;
+    background-color: var(--1-color-modes-main-border-border-secondary);
+}
+
+.text-4 {
+    position      : relative;
+    width         : fit-content;
+    margin-top    : -1px;
+    font-family   : var(--text-sm-medium-font-family);
+    font-weight   : var(--text-sm-medium-font-weight);
+    color         : var(--1-color-modes-main-text-text-tertiary-600);
+    font-size     : var(--text-sm-medium-font-size);
+    text-align    : center;
+    letter-spacing: var(--text-sm-medium-letter-spacing);
+    line-height   : var(--text-sm-medium-line-height);
+    white-space   : nowrap;
+    font-style    : var(--text-sm-medium-font-style);
+}
+
+.social-button-groups {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+    gap            : var(--3-spacing-spacing-lg);
+    position       : relative;
+    align-self     : stretch;
+    width          : 100%;
+    flex           : 0 0 auto;
+}
+
+.social-button {
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    gap             : var(--3-spacing-spacing-lg);
+    padding         : 10px var(--3-spacing-spacing-xl) 10px var(--3-spacing-spacing-xl);
+    position        : relative;
+    align-self      : stretch;
+    width           : 100%;
+    flex            : 0 0 auto;
+    background-color: var(--1-color-modes-main-background-bg-primary);
+    border-radius   : var(--2-radius-radius-md);
+    overflow        : hidden;
+    border          : 1px solid;
+    border-color    : var(--1-color-modes-main-border-border-secondary);
+    box-shadow      : var(--shadows-shadow-off-shadow-xs-off);
+}
+
+.social-icon {
+    position: relative;
+    width   : 24px;
+    height  : 24px;
+}
+
+.text-5 {
+    position      : relative;
+    width         : fit-content;
+    margin-top    : -1px;
+    font-family   : var(--text-md-semibold-font-family);
+    font-weight   : var(--text-md-semibold-font-weight);
+    color         : var(--1-color-modes-main-text-text-secondary-700);
+    font-size     : var(--text-md-semibold-font-size);
+    letter-spacing: var(--text-md-semibold-letter-spacing);
+    line-height   : var(--text-md-semibold-line-height);
+    white-space   : nowrap;
+    font-style    : var(--text-md-semibold-font-style);
+}
+
+.row {
+    display        : flex;
+    align-items    : baseline;
+    justify-content: center;
+    gap            : var(--3-spacing-spacing-xs-duplicate);
+    position       : relative;
+    align-self     : stretch;
+    width          : 100%;
+    flex           : 0 0 auto;
+}
+
+.text-6 {
+    position      : relative;
+    width         : fit-content;
+    margin-top    : -1px;
+    font-family   : var(--text-sm-regular-font-family);
+    font-weight   : var(--text-sm-regular-font-weight);
+    color         : var(--1-color-modes-colors-text-text-tertiary-600);
+    font-size     : var(--text-sm-regular-font-size);
+    letter-spacing: var(--text-sm-regular-letter-spacing);
+    line-height   : var(--text-sm-regular-line-height);
+    white-space   : nowrap;
+    font-style    : var(--text-sm-regular-font-style);
+}
+
+.buttons-button-2 {
+    display        : inline-flex;
+    align-items    : center;
+    justify-content: center;
+    gap            : var(--3-spacing-spacing-xs);
+    position       : relative;
+    flex           : 0 0 auto;
+    border-radius  : var(--2-radius-radius-md);
+    overflow       : hidden;
+}
+
+.text-7 {
+    position      : relative;
+    width         : fit-content;
+    margin-top    : -1px;
+    font-family   : var(--text-sm-semibold-font-family);
+    font-weight   : var(--text-sm-semibold-font-weight);
+    color         : var(--1-color-modes-component-colors-components-buttons-tertiary-color-button-tertiary-color-fg);
+    font-size     : var(--text-sm-semibold-font-size);
+    letter-spacing: var(--text-sm-semibold-letter-spacing);
+    line-height   : var(--text-sm-semibold-line-height);
+    white-space   : nowrap;
+    font-style    : var(--text-sm-semibold-font-style);
+}

@@ -1,0 +1,322 @@
+/* {
+  position        : relative;
+  width           : 1440px;
+  height          : 900px;
+  background-color: var(--1-color-modes-colors-background-bg-primary);
+} */
+
+.content {
+  display         : flex;
+  flex-direction  : column;
+  width           : 720px;
+  height          : 901px;
+  align-items     : center;
+  gap             : var(--3-spacing-spacing-7xl);
+  padding         : 48px 32px;
+  position        : absolute;
+  top             : 0;
+  left            : 720px;
+  background-color: var(--1-color-modes-main-background-bg-primary);
+  border-radius   : var(--2-radius-radius-3xl);
+}
+
+.logo-normal {
+  position: relative;
+  width   : 238.45px;
+  height  : 92px;
+}
+
+.div {
+  display       : flex;
+  flex-direction: column;
+  max-width     : 420px;
+  width         : 420px;
+  align-items   : center;
+  gap           : var(--3-spacing-spacing-4xl);
+  position      : relative;
+  flex          : 0 0 auto;
+}
+
+.header {
+  display         : flex;
+  flex-direction  : column;
+  align-items     : center;
+  gap             : var(--3-spacing-spacing-3xl);
+  position        : relative;
+  align-self      : stretch;
+  width           : 100%;
+  flex            : 0 0 auto;
+  background-color: transparent;
+}
+
+.featured-icon {
+  display      : inline-flex;
+  align-items  : center;
+  gap          : 10px;
+  padding      : 14px;
+  position     : relative;
+  flex         : 0 0 auto;
+  border-radius: var(--3-spacing-spacing-lg);
+  border       : 1px solid;
+  border-color : var(--1-color-modes-component-colors-components-icons-featured-icons-modern-featured-icon-modern-border);
+  box-shadow   : var(--shadows-shadow-xs);
+}
+
+.ic-bold-duotone {
+  position: relative;
+  width   : 28px;
+  height  : 28px;
+}
+
+.text-and-supporting {
+  display       : flex;
+  flex-direction: column;
+  align-items   : flex-start;
+  gap           : var(--3-spacing-spacing-lg);
+  position      : relative;
+  align-self    : stretch;
+  width         : 100%;
+  flex          : 0 0 auto;
+}
+
+.text {
+  position      : relative;
+  align-self    : stretch;
+  margin-top    : -1px;
+  font-family   : var(--display-sm-bold-font-family);
+  font-weight   : var(--display-sm-bold-font-weight);
+  color         : var(--1-color-modes-colors-text-text-primary-900);
+  font-size     : var(--display-sm-bold-font-size);
+  text-align    : center;
+  letter-spacing: var(--display-sm-bold-letter-spacing);
+  line-height   : var(--display-sm-bold-line-height);
+  font-style    : var(--display-sm-bold-font-style);
+}
+
+.frame {
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+  gap            : 4px;
+  position       : relative;
+  align-self     : stretch;
+  width          : 100%;
+  flex           : 0 0 auto;
+}
+
+.supporting-text {
+  position      : relative;
+  width         : fit-content;
+  margin-top    : -1px;
+  font-family   : var(--text-md-regular-font-family);
+  font-weight   : var(--text-md-regular-font-weight);
+  color         : var(--1-color-modes-colors-text-text-tertiary-600);
+  font-size     : var(--text-md-regular-font-size);
+  text-align    : center;
+  letter-spacing: var(--text-md-regular-letter-spacing);
+  line-height   : var(--text-md-regular-line-height);
+  white-space   : nowrap;
+  font-style    : var(--text-md-regular-font-style);
+}
+
+.text-wrapper {
+  position      : relative;
+  width         : fit-content;
+  margin-top    : -1px;
+  font-family   : var(--text-md-bold-font-family);
+  font-weight   : var(--text-md-bold-font-weight);
+  color         : var(--1-color-modes-colors-text-text-tertiary-600);
+  font-size     : var(--text-md-bold-font-size);
+  text-align    : center;
+  letter-spacing: var(--text-md-bold-letter-spacing);
+  line-height   : var(--text-md-bold-line-height);
+  white-space   : nowrap;
+  font-style    : var(--text-md-bold-font-style);
+}
+
+.div-2 {
+  display       : flex;
+  flex-direction: column;
+  align-items   : flex-start;
+  gap           : var(--3-spacing-spacing-sm);
+  position      : relative;
+  align-self    : stretch;
+  width         : 100%;
+  flex          : 0 0 auto;
+}
+
+.input {
+  display        : flex;
+  align-items    : flex-start;
+  justify-content: space-between;
+  position       : relative;
+  align-self     : stretch;
+  width          : 100%;
+  flex           : 0 0 auto;
+}
+
+.mega-input-field {
+  display         : flex;
+  flex-direction  : column;
+  width           : 80px;
+  min-height      : 80px;
+  align-items     : center;
+  justify-content : center;
+  gap             : var(--3-spacing-spacing-md);
+  padding         : var(--3-spacing-spacing-md);
+  position        : relative;
+  background-color: var(--1-color-modes-main-background-bg-primary);
+  border-radius   : var(--2-radius-radius-lg);
+  overflow        : hidden;
+  border          : 2px solid;
+  border-color    : var(--1-color-modes-main-border-border-brand-solid);
+  box-shadow      : var(--shadows-shadow-off-shadow-xs-off);
+}
+
+.text-2 {
+  position      : relative;
+  align-self    : stretch;
+  font-family   : var(--display-lg-medium-font-family);
+  font-weight   : var(--display-lg-medium-font-weight);
+  color         : var(--1-color-modes-main-text-text-brand-tertiary-500);
+  font-size     : var(--display-lg-medium-font-size);
+  text-align    : center;
+  letter-spacing: var(--display-lg-medium-letter-spacing);
+  line-height   : var(--display-lg-medium-line-height);
+  font-style    : var(--display-lg-medium-font-style);
+}
+
+.div-wrapper {
+  display         : flex;
+  flex-direction  : column;
+  width           : 80px;
+  min-height      : 80px;
+  align-items     : center;
+  justify-content : center;
+  gap             : var(--3-spacing-spacing-md);
+  padding         : var(--3-spacing-spacing-md);
+  position        : relative;
+  background-color: var(--1-color-modes-main-background-bg-primary);
+  border-radius   : var(--2-radius-radius-lg);
+  overflow        : hidden;
+  border          : 2px solid;
+  border-color    : var(--1-color-modes-main-border-border-brand-solid);
+  box-shadow      : var(--focus-rings-ring-brand-shadow-xs);
+}
+
+.hint-text {
+  position      : relative;
+  align-self    : stretch;
+  font-family   : var(--text-sm-regular-font-family);
+  font-weight   : var(--text-sm-regular-font-weight);
+  color         : var(--1-color-modes-main-text-text-error-primary-600);
+  font-size     : var(--text-sm-regular-font-size);
+  letter-spacing: var(--text-sm-regular-letter-spacing);
+  line-height   : var(--text-sm-regular-line-height);
+  font-style    : var(--text-sm-regular-font-style);
+}
+
+.buttons-button-wrapper {
+  display       : flex;
+  flex-direction: column;
+  align-items   : center;
+  gap           : var(--3-spacing-spacing-4xl);
+  position      : relative;
+  align-self    : stretch;
+  width         : 100%;
+  flex          : 0 0 auto;
+  border-radius : var(--3-spacing-spacing-lg);
+}
+
+.buttons-button {
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+  gap             : var(--3-spacing-spacing-sm);
+  padding         : 10px var(--3-spacing-spacing-xl) 10px var(--3-spacing-spacing-xl);
+  position        : relative;
+  align-self      : stretch;
+  width           : 100%;
+  flex            : 0 0 auto;
+  background-color: var(--1-color-modes-component-colors-components-buttons-primary-button-primary-bg);
+  border-radius   : var(--2-radius-radius-md);
+  overflow        : hidden;
+  border          : 1px solid;
+  border-color    : var(--1-color-modes-component-colors-components-buttons-primary-button-primary-border);
+  box-shadow      : var(--shadows-shadow-off-shadow-xs-off);
+}
+
+.text-padding {
+  display        : inline-flex;
+  align-items    : center;
+  justify-content: center;
+  padding        : 0px var(--3-spacing-spacing-xxs) 0px var(--3-spacing-spacing-xxs);
+  position       : relative;
+  flex           : 0 0 auto;
+}
+
+.text-3 {
+  position      : relative;
+  width         : fit-content;
+  margin-top    : -1px;
+  font-family   : var(--text-md-semibold-font-family);
+  font-weight   : var(--text-md-semibold-font-weight);
+  color         : var(--1-color-modes-component-colors-components-buttons-primary-button-primary-fg);
+  font-size     : var(--text-md-semibold-font-size);
+  letter-spacing: var(--text-md-semibold-letter-spacing);
+  line-height   : var(--text-md-semibold-line-height);
+  white-space   : nowrap;
+  font-style    : var(--text-md-semibold-font-style);
+}
+
+.row {
+  display        : flex;
+  align-items    : flex-start;
+  justify-content: center;
+  gap            : var(--3-spacing-spacing-xs);
+  position       : relative;
+  align-self     : stretch;
+  width          : 100%;
+  flex           : 0 0 auto;
+}
+
+.text-4 {
+  position      : relative;
+  width         : fit-content;
+  margin-top    : -1px;
+  font-family   : var(--text-sm-regular-font-family);
+  font-weight   : var(--text-sm-regular-font-weight);
+  color         : var(--1-color-modes-colors-text-text-tertiary-600);
+  font-size     : var(--text-sm-regular-font-size);
+  letter-spacing: var(--text-sm-regular-letter-spacing);
+  line-height   : var(--text-sm-regular-line-height);
+  white-space   : nowrap;
+  font-style    : var(--text-sm-regular-font-style);
+}
+
+.text-5 {
+  position      : relative;
+  width         : fit-content;
+  margin-top    : -1px;
+  font-family   : var(--text-sm-semibold-font-family);
+  font-weight   : var(--text-sm-semibold-font-weight);
+  color         : var(--1-color-modes-component-colors-components-buttons-tertiary-color-button-tertiary-color-fg);
+  font-size     : var(--text-sm-semibold-font-size);
+  letter-spacing: var(--text-sm-semibold-letter-spacing);
+  line-height   : var(--text-sm-semibold-line-height);
+  white-space   : nowrap;
+  font-style    : var(--text-sm-semibold-font-style);
+}
+
+.p {
+  position      : relative;
+  align-self    : stretch;
+  font-family   : var(--text-lg-regular-font-family);
+  font-weight   : var(--text-lg-regular-font-weight);
+  color         : #ffffff;
+  font-size     : var(--text-lg-regular-font-size);
+  text-align    : center;
+  letter-spacing: var(--text-lg-regular-letter-spacing);
+  line-height   : var(--text-lg-regular-line-height);
+  font-style    : var(--text-lg-regular-font-style);
+}
