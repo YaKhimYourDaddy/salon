@@ -1,0 +1,225 @@
+:root {
+  --display-sm-bold-font-family: "Be Vietnam Pro", Helvetica;
+  --display-sm-bold-font-weight: 700;
+  --display-sm-bold-font-size: 30px;
+  --display-sm-bold-letter-spacing: 0px;
+  --display-sm-bold-line-height: 38px;
+  --display-sm-bold-font-style: normal;
+  --text-sm-semibold-font-family: "Lato", Helvetica;
+  --text-sm-semibold-font-weight: 600;
+  --text-sm-semibold-font-size: 14px;
+  --text-sm-semibold-letter-spacing: 0px;
+  --text-sm-semibold-line-height: 20px;
+  --text-sm-semibold-font-style: normal;
+  --text-sm-bold-font-family: "Lato", Helvetica;
+  --text-sm-bold-font-weight: 700;
+  --text-sm-bold-font-size: 14px;
+  --text-sm-bold-letter-spacing: 0px;
+  --text-sm-bold-line-height: 20px;
+  --text-sm-bold-font-style: normal;
+  --text-sm-regular-font-family: "Lato", Helvetica;
+  --text-sm-regular-font-weight: 400;
+  --text-sm-regular-font-size: 14px;
+  --text-sm-regular-letter-spacing: 0px;
+  --text-sm-regular-line-height: 20px;
+  --text-sm-regular-font-style: normal;
+  --text-md-semibold-font-family: "Lato", Helvetica;
+  --text-md-semibold-font-weight: 600;
+  --text-md-semibold-font-size: 16px;
+  --text-md-semibold-letter-spacing: 0px;
+  --text-md-semibold-line-height: 24px;
+  --text-md-semibold-font-style: normal;
+  --text-sm-medium-font-family: "Lato", Helvetica;
+  --text-sm-medium-font-weight: 500;
+  --text-sm-medium-font-size: 14px;
+  --text-sm-medium-letter-spacing: 0px;
+  --text-sm-medium-line-height: 20px;
+  --text-sm-medium-font-style: normal;
+  --text-lg-regular-font-family: "Lato", Helvetica;
+  --text-lg-regular-font-weight: 400;
+  --text-lg-regular-font-size: 18px;
+  --text-lg-regular-letter-spacing: 0px;
+  --text-lg-regular-line-height: 28px;
+  --text-lg-regular-font-style: normal;
+  --text-xs-semibold-font-family: "Lato", Helvetica;
+  --text-xs-semibold-font-weight: 600;
+  --text-xs-semibold-font-size: 12px;
+  --text-xs-semibold-letter-spacing: 0px;
+  --text-xs-semibold-line-height: 18px;
+  --text-xs-semibold-font-style: normal;
+  --shadows-shadow-off-shadow-xs-off: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  --shadows-shadow-off-shadow-lg-off: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
+  --1-color-modes-colors-background-bg-primary: var(--global-colors-base-white);
+  --1-color-modes-colors-text-text-primary-900: var(--global-colors-gray-light-mode-900);
+  --1-color-modes-main-text-text-secondary-700: var(--global-colors-gray-light-mode-700);
+  --1-color-modes-main-text-text-error-primary-600: var(--global-colors-error-600);
+  --1-color-modes-main-text-text-placeholder: var(--global-colors-gray-light-mode-500);
+  --1-color-modes-component-colors-components-buttons-primary-button-primary-fg: var(
+    --global-colors-base-white-duplicate
+  );
+  --1-color-modes-main-text-text-tertiary-600: var(--global-colors-gray-light-mode-600);
+  --1-color-modes-colors-text-text-tertiary-600: var(--global-colors-gray-light-mode-600-duplicate);
+  --1-color-modes-component-colors-components-buttons-tertiary-color-button-tertiary-color-fg: var(
+    --global-colors-brand-600
+  );
+  --1-color-modes-colors-text-text-success-primary-600: var(--global-colors-success-600);
+  --1-color-modes-main-border-border-secondary: var(--global-colors-gray-light-mode-200);
+  --1-color-modes-component-colors-alpha-alpha-white-90: rgba(255, 255, 255, 0.9);
+  --1-color-modes-main-background-bg-primary: var(--global-colors-base-white-duplicate);
+  --1-color-modes-component-colors-alpha-alpha-white-10: rgba(255, 255, 255, 0.1);
+  --1-color-modes-component-colors-alpha-alpha-white-20: rgba(255, 255, 255, 0.2);
+  --1-color-modes-component-colors-components-buttons-primary-button-primary-bg: var(--global-colors-brand-500-primary);
+  --1-color-modes-main-background-bg-brand-solid: var(--global-colors-brand-500-primary);
+  --1-color-modes-component-colors-components-buttons-primary-button-primary-border: var(
+    --global-colors-brand-500-primary
+  );
+  --1-color-modes-component-colors-components-buttons-tertiary-color-button-tertiary-color-fg-hover: var(
+    --global-colors-brand-700
+  );
+  --1-color-modes-component-colors-components-buttons-primary-button-primary-fg-hover: var(
+    --global-colors-base-white-duplicate
+  );
+  --1-color-modes-component-colors-components-buttons-tertiary-color-button-tertiary-color-bg-hover: var(
+    --global-colors-brand-25
+  );
+  --1-color-modes-component-colors-components-buttons-primary-button-primary-bg-hover: var(--global-colors-brand-600);
+  --1-color-modes-component-colors-components-buttons-primary-button-primary-border-hover: var(
+    --global-colors-brand-600
+  );
+  --1-color-modes-main-text-text-white: var(--global-colors-base-white-duplicate);
+  --1-color-modes-main-text-text-secondary-hover: var(--global-colors-gray-light-mode-800);
+  --1-color-modes-main-background-bg-primary-hover: var(--global-colors-gray-light-mode-50);
+  --1-color-modes-main-background-bg-primary-solid: var(--global-colors-gray-light-mode-950);
+  --global-colors-base-white: rgba(255, 255, 255, 1);
+  --global-colors-gray-light-mode-900: rgba(16, 24, 40, 1);
+  --global-colors-gray-light-mode-700: rgba(52, 64, 84, 1);
+  --global-colors-error-600: rgba(217, 45, 32, 1);
+  --global-colors-gray-light-mode-500: rgba(102, 112, 133, 1);
+  --global-colors-base-white-duplicate: rgba(255, 255, 255, 1);
+  --global-colors-gray-light-mode-600: rgba(71, 84, 103, 1);
+  --global-colors-gray-light-mode-600-duplicate: rgba(71, 84, 103, 1);
+  --global-colors-brand-600: var(--global-colors-blue-600);
+  --global-colors-success-600: rgba(7, 148, 85, 1);
+  --global-colors-gray-light-mode-200: rgba(234, 236, 240, 1);
+  --global-colors-gray-dark-mode-950: rgba(12, 17, 29, 1);
+  --global-colors-blue-600: rgba(11, 93, 204, 1);
+  --global-spacing-2-8px: 8px;
+  --global-spacing-3-12px: 12px;
+  --global-colors-gray-dark-mode-300: rgba(206, 207, 210, 1);
+  --global-colors-error-400: rgba(249, 112, 102, 1);
+  --global-colors-gray-dark-mode-500: rgba(133, 136, 142, 1);
+  --global-colors-gray-dark-mode-400: rgba(148, 150, 156, 1);
+  --global-colors-gray-dark-mode-50: rgba(245, 245, 246, 1);
+  --global-colors-success-400: rgba(71, 205, 137, 1);
+  --global-colors-gray-dark-mode-800: rgba(31, 36, 47, 1);
+  --global-spacing-4-16px: 16px;
+  --global-spacing-0-5-2px: 2px;
+  --global-colors-gray-dark-mode-400-duplicate: rgba(148, 150, 156, 1);
+  --global-spacing-1-4px: 4px;
+  --global-spacing-1-5-6px: 6px;
+  --global-spacing-0-0px: 0px;
+  --global-colors-gray-dark-mode-950-duplicate: rgba(12, 17, 29, 1);
+  --global-colors-brand-500-primary: var(--global-colors-blue-500);
+  --global-spacing-1-4px-duplicate: 4px;
+  --global-colors-blue-500: rgba(12, 111, 243, 1);
+  --global-spacing-5-20px: 20px;
+  --global-spacing-6-24px: 24px;
+  --global-spacing-6-24px-duplicate: 24px;
+  --global-spacing-3-12px-duplicate: 12px;
+  --global-spacing-8-32px: 32px;
+  --global-spacing-10-40px: 40px;
+  --global-colors-brand-700: var(--global-colors-blue-700);
+  --global-colors-blue-700: rgba(8, 76, 165, 1);
+  --global-colors-gray-dark-mode-100: rgba(240, 241, 241, 1);
+  --global-colors-brand-25: var(--global-colors-blue-25);
+  --global-colors-blue-25: rgba(245, 249, 255, 1);
+  --global-colors-base-black: rgba(0, 0, 0, 1);
+  --global-colors-gray-light-mode-800: rgba(24, 34, 48, 1);
+  --global-colors-gray-dark-mode-200: rgba(236, 236, 237, 1);
+  --global-colors-gray-light-mode-50: rgba(249, 250, 251, 1);
+  --global-colors-gray-light-mode-950: rgba(12, 17, 29, 1);
+  --color-styles-neutral-white: rgba(255, 255, 255, 1);
+  --3-spacing-spacing-md: var(--global-spacing-2-8px);
+  --3-spacing-spacing-lg: var(--global-spacing-3-12px);
+  --3-spacing-spacing-xl: var(--global-spacing-4-16px);
+  --3-spacing-spacing-xxs: var(--global-spacing-0-5-2px);
+  --3-spacing-spacing-xs: var(--global-spacing-1-4px);
+  --3-spacing-spacing-sm: var(--global-spacing-1-5-6px);
+  --3-spacing-spacing-none: var(--global-spacing-0-0px);
+  --3-spacing-spacing-xs-duplicate: var(--global-spacing-1-4px-duplicate);
+  --3-spacing-spacing-2xl: var(--global-spacing-5-20px);
+  --3-spacing-spacing-3xl: var(--global-spacing-6-24px);
+  --3-spacing-spacing-3xl-duplicate: var(--global-spacing-6-24px-duplicate);
+  --3-spacing-spacing-lg-duplicate: var(--global-spacing-3-12px-duplicate);
+  --3-spacing-spacing-4xl: var(--global-spacing-8-32px);
+  --3-spacing-spacing-5xl: var(--global-spacing-10-40px);
+  --2-radius-radius-xl: 16px;
+  --2-radius-radius-md: 12px;
+  --2-radius-radius-3xl: 24px;
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-1-color-modes-mode="light-mode">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-1-color-modes-mode="light-mode"] {
+  --1-color-modes-colors-background-bg-primary: var(--global-colors-base-white);
+  --1-color-modes-colors-text-text-primary-900: var(--global-colors-gray-light-mode-900);
+  --1-color-modes-main-text-text-secondary-700: var(--global-colors-gray-light-mode-700);
+  --1-color-modes-main-text-text-error-primary-600: var(--global-colors-error-600);
+  --1-color-modes-main-text-text-placeholder: var(--global-colors-gray-light-mode-500);
+  --1-color-modes-main-text-text-tertiary-600: var(--global-colors-gray-light-mode-600);
+  --1-color-modes-colors-text-text-tertiary-600: var(--global-colors-gray-light-mode-600-duplicate);
+  --1-color-modes-component-colors-components-buttons-tertiary-color-button-tertiary-color-fg: var(
+    --global-colors-brand-600
+  );
+  --1-color-modes-colors-text-text-success-primary-600: var(--global-colors-success-600);
+  --1-color-modes-main-border-border-secondary: var(--global-colors-gray-light-mode-200);
+  --1-color-modes-component-colors-alpha-alpha-white-90: rgba(255, 255, 255, 0.9);
+  --1-color-modes-main-background-bg-primary: var(--global-colors-base-white-duplicate);
+  --1-color-modes-component-colors-alpha-alpha-white-10: rgba(255, 255, 255, 0.1);
+  --1-color-modes-component-colors-alpha-alpha-white-20: rgba(255, 255, 255, 0.2);
+  --1-color-modes-component-colors-components-buttons-tertiary-color-button-tertiary-color-fg-hover: var(
+    --global-colors-brand-700
+  );
+  --1-color-modes-component-colors-components-buttons-tertiary-color-button-tertiary-color-bg-hover: var(
+    --global-colors-brand-25
+  );
+  --1-color-modes-main-text-text-secondary-hover: var(--global-colors-gray-light-mode-800);
+  --1-color-modes-main-background-bg-primary-hover: var(--global-colors-gray-light-mode-50);
+}
+
+[data-1-color-modes-mode="dark-mode"] {
+  --1-color-modes-colors-background-bg-primary: var(--global-colors-gray-dark-mode-950);
+  --1-color-modes-colors-text-text-primary-900: var(--global-colors-gray-dark-mode-50);
+  --1-color-modes-main-text-text-secondary-700: var(--global-colors-gray-dark-mode-300);
+  --1-color-modes-main-text-text-error-primary-600: var(--global-colors-error-400);
+  --1-color-modes-main-text-text-placeholder: var(--global-colors-gray-dark-mode-500);
+  --1-color-modes-main-text-text-tertiary-600: var(--global-colors-gray-dark-mode-400-duplicate);
+  --1-color-modes-colors-text-text-tertiary-600: var(--global-colors-gray-dark-mode-400);
+  --1-color-modes-component-colors-components-buttons-tertiary-color-button-tertiary-color-fg: var(
+    --global-colors-gray-dark-mode-300
+  );
+  --1-color-modes-colors-text-text-success-primary-600: var(--global-colors-success-400);
+  --1-color-modes-main-border-border-secondary: var(--global-colors-gray-dark-mode-800);
+  --1-color-modes-component-colors-alpha-alpha-white-90: rgba(12, 17, 29, 0.9);
+  --1-color-modes-main-background-bg-primary: var(--global-colors-gray-dark-mode-950-duplicate);
+  --1-color-modes-component-colors-alpha-alpha-white-10: rgba(12, 17, 29, 0.1);
+  --1-color-modes-component-colors-alpha-alpha-white-20: rgba(12, 17, 29, 0.2);
+  --1-color-modes-component-colors-components-buttons-tertiary-color-button-tertiary-color-fg-hover: var(
+    --global-colors-gray-dark-mode-100
+  );
+  --1-color-modes-component-colors-components-buttons-tertiary-color-button-tertiary-color-bg-hover: var(
+    --global-colors-gray-dark-mode-800
+  );
+  --1-color-modes-main-text-text-secondary-hover: var(--global-colors-gray-dark-mode-200);
+  --1-color-modes-main-background-bg-primary-hover: var(--global-colors-gray-dark-mode-800);
+}

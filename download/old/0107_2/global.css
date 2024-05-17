@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --text-lg-regular: Lato;
+  --text-sm-semibold1: Inter;
+  --font-poppins: Poppins;
+  --display-sm-bold: "Be Vietnam Pro";
+
+  /* font sizes */
+  --text-lg-regular-size: 18px;
+  --font-size-3xl: 22px;
+  --font-size-smi: 13px;
+  --font-size-8xl-9: 27.9px;
+  --font-size-xs-2: 11.2px;
+  --text-sm-semibold-size: 14px;
+  --text-md-semibold-size: 16px;
+  --display-sm-bold-size: 30px;
+
+  /* Colors */
+  --colors-background-bg-primary: #fff;
+  --main-background-bg-brand-solid: #0c6ff3;
+  --component-colors-components-buttons-tertiary-color-button-tertiary-color-fg: #0a5dcc;
+  --colors-text-text-primary-900: #101828;
+  --component-colors-alpha-alpha-white-90: rgba(255, 255, 255, 0.9);
+  --colors-text-text-success-primary-600: #079455;
+  --colors-text-text-tertiary-600: #475467;
+  --main-text-text-secondary-700: #344054;
+  --colors-border-border-tertiary: #f2f4f7;
+  --main-border-border-secondary: #eaecf0;
+  --colors-base-black: #000;
+  --color-gainsboro: #e6e6e6;
+  --color-lightgray: #d1d4d6;
+  --color-slategray: #667085;
+  --main-text-text-error-primary-600: #da2d20;
+
+  /* Spacing */
+  --radius-xl: 16px;
+  --spacing-7xl: 64px;
+  --radius-3xl: 24px;
+  --spacing-4xl: 32px;
+  --spacing-xs: 4px;
+  --spacing-xs1: 4px;
+  --radius-md: 12px;
+  --spacing-xxs: 2px;
+  --spacing-3xl: 24px;
+  --spacing-lg: 12px;
+  --spacing-3xl1: 24px;
+  --spacing-lg1: 12px;
+  --spacing-xl: 16px;
+  --spacing-md: 8px;
+  --spacing-sm: 6px;
+  --spacing-sm1: 6px;
+  --spacing-md1: 8px;
+  --spacing-xxs1: 2px;
+  --spacing-2xl: 20px;
+
+  /* Gaps */
+  --gap-mini-9: 14.9px;
+  --gap-9xs-7: 3.7px;
+  --gap-xl: 20px;
+  --gap-9xs: 4px;
+  --gap-5xl: 24px;
+  --gap-xs: 12px;
+  --gap-2xs: 11px;
+  --gap-5xs: 8px;
+  --gap-7xs: 6px;
+
+  /* Paddings */
+  --padding-2xl: 21px;
+  --padding-mini-9: 14.9px;
+  --padding-3xs: 10px;
+  --padding-11xs: 2px;
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+  --padding-smi: 13px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+  --br-1207xl-7: 1226.7px;
+  --br-mini-7: 14.7px;
+  --br-xs: 12px;
+}

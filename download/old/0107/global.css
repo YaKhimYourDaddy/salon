@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --text-sm-semibold: Lato;
+  --font-be-vietnam-pro: "Be Vietnam Pro";
+  --font-inter: Inter;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --text-sm-semibold-size: 14px;
+  --text-md-semibold-size: 16px;
+  --text-lg-regular-size: 18px;
+  --font-size-3xl: 22px;
+  --font-size-smi: 13px;
+  --font-size-8xl-9: 27.9px;
+  --font-size-xs-2: 11.2px;
+
+  /* Colors */
+  --colors-background-bg-primary: #fff;
+  --component-colors-components-buttons-primary-button-primary-bg: #0c6ff3;
+  --component-colors-components-buttons-tertiary-color-button-tertiary-color-fg: #0a5dcc;
+  --colors-text-text-tertiary-600: #475467;
+  --main-text-text-secondary-700: #344054;
+  --colors-base-black: #000;
+  --colors-border-border-tertiary: #f2f4f7;
+  --main-border-border-secondary: #eaecf0;
+  --color-gainsboro: #e6e6e6;
+  --color-lightgray: #d1d4d6;
+  --color-slategray: #667085;
+  --main-text-text-error-primary-600: #da2d20;
+  --colors-text-text-primary-900: #101828;
+  --component-colors-alpha-alpha-white-90: rgba(255, 255, 255, 0.9);
+  --colors-text-text-success-primary-600: #079455;
+
+  /* Spacing */
+  --spacing-5xl: 40px;
+  --radius-3xl: 24px;
+  --spacing-4xl: 32px;
+  --spacing-xs: 4px;
+  --spacing-xs1: 4px;
+  --radius-md: 12px;
+  --spacing-xxs: 2px;
+  --spacing-lg: 12px;
+  --spacing-lg1: 12px;
+  --spacing-xl: 16px;
+  --spacing-md: 8px;
+  --spacing-sm: 6px;
+  --spacing-2xl: 20px;
+  --radius-xl: 16px;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-base: 16px;
+  --gap-9xs: 4px;
+  --gap-xs: 12px;
+  --gap-2xs: 11px;
+  --gap-5xs: 8px;
+  --gap-7xs: 6px;
+  --gap-5xs-4: 7.4px;
+  --gap-mini-9: 14.9px;
+  --gap-9xs-7: 3.7px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-13xl: 32px;
+  --padding-3xs: 10px;
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+  --padding-3xs-5: 9.5px;
+  --padding-12xs: 1px;
+  --padding-smi: 13px;
+  --padding-smi-2: 12.2px;
+  --padding-66xl: 85px;
+  --padding-mini-9: 14.9px;
+  --padding-2xs-3: 10.3px;
+  --padding-5xs-9: 7.9px;
+  --padding-6xs: 7px;
+
+  /* Border radiuses */
+  --br-xs: 12px;
+  --br-base: 16px;
+  --br-1207xl-7: 1226.7px;
+  --br-mini-7: 14.7px;
+}
