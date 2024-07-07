@@ -1,3 +1,5 @@
+@import url(../../global-style/fonts.css);
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -88,9 +90,11 @@ form {
   align-items: flex-start;
   gap: 16px;
   align-self: stretch;
+  width: 100%;
 }
 
 .label-input-hint-wrapper {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -134,7 +138,7 @@ form {
   color: var(--main-text-text-error-primary-600, #D92D20);
 
   /* Text sm / Bold */
-  font-family: "Lato";
+  font-family: "Lato", Helvetica;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -145,6 +149,7 @@ form {
 .input-wrapper {
   display: flex;
   height: 44px;
+  width: 100%;
   padding: 10px 14px;
   align-items: center;
   gap: var(--spacing-md, 8px);
@@ -153,6 +158,10 @@ form {
   border-radius: var(--radius-md, 12px);
   border: 1px solid var(--Main-Border-border-secondary, #EAECF0);
   background: var(--Main-Background-bg-primary, #FFF);
+}
+
+.input-wrapper:focus-within {
+  border-color: black;
 }
 
 .input-inner-wrapper {
@@ -179,6 +188,17 @@ form {
   font-weight: 400;
   line-height: 20px;
   /* 142.857% */
+  border: none;
+}
+
+.input-text:focus {
+  border: none;
+  outline: none;
+}
+
+.password-eye-button {
+  border: none;
+  background-color: transparent;
 }
 
 .action-section {
@@ -343,4 +363,22 @@ a {
   gap: var(--spacing-xs, 4px);
 
   border-radius: var(--radius-md, 12px);
+  border: none;
+
+  color: var(--Component-colors-Components-Buttons-Tertiary-color-button-tertiary-color-fg, #0B5DCC);
+
+  /* Text sm/Semibold */
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  /* 142.857% */
+
+  background-color: transparent;
+}
+
+
+button:hover {
+  cursor: pointer;
 }
