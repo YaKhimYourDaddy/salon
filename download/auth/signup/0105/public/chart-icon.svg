@@ -1,0 +1,27 @@
+<svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_1308_1974)">
+<rect width="62.9726" height="62.9726" rx="12.5945" fill="url(#paint0_linear_1308_1974)" fill-opacity="0.8"/>
+<rect x="0.250043" y="0.250043" width="62.4725" height="62.4725" rx="12.3445" stroke="white" stroke-opacity="0.6" stroke-width="0.500085"/>
+<g clip-path="url(#clip0_1308_1974)">
+<path d="M33.7417 12.8242H33.3705C32.9642 12.8242 32.6348 13.1536 32.6348 13.56V29.8733C32.6348 30.2797 32.9642 30.6091 33.3705 30.6091L49.6839 30.6091C50.0902 30.6091 50.4196 30.2797 50.4196 29.8733V29.5021C50.4196 20.3461 42.8977 12.8242 33.7417 12.8242Z" fill="#47CD89"/>
+<path d="M18.9555 45.8523C18.6547 46.1532 18.6701 46.6469 19.0024 46.9127C21.8372 49.1803 25.4167 50.6052 29.3153 50.6052C38.4713 50.6052 45.9194 43.0833 45.9194 33.9273V33.5561C45.9194 33.1497 45.59 32.8203 45.1836 32.8203L32.2923 32.8203C32.0971 32.8203 31.91 32.8978 31.772 33.0358L18.9555 45.8523Z" fill="#3D8CF5"/>
+<path d="M30.4231 18.06C30.4231 17.6536 30.0937 17.3242 29.6873 17.3242H29.3161C26.0106 17.3242 22.9362 18.3059 20.3474 19.9792C19.9668 20.2253 19.9245 20.7576 20.245 21.0781L29.167 30.0001C29.6305 30.4636 30.4231 30.1353 30.4231 29.4798V18.06Z" fill="#FE6790"/>
+<path d="M18.4305 22.387C18.1488 22.1053 17.6926 22.0979 17.4148 22.3835C14.5057 25.3733 12.6423 29.4392 12.6423 33.9253C12.6423 37.8239 14.0672 41.4033 16.3348 44.2382C16.6006 44.5705 17.0943 44.5859 17.3952 44.2851L28.3416 33.3386C28.629 33.0513 28.629 32.5855 28.3416 32.2981L18.4305 22.387Z" fill="#FFD38B"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_b_1308_1974" x="-2.00034" y="-2.00034" width="66.9733" height="66.9733" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="1.00017"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1308_1974"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1308_1974" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_1308_1974" x1="4.17051e-07" y1="62.9726" x2="64.475" y2="60.6382" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0.59"/>
+</linearGradient>
+<clipPath id="clip0_1308_1974">
+<rect width="37.7836" height="37.7836" fill="white" transform="translate(12.6357 12.8252)"/>
+</clipPath>
+</defs>
+</svg>

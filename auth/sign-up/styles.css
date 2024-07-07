@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1440px;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+}
+
+.poster {
+  width: 50%;
+  background-color: lightpink;
+}
+
+.content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 48px;
+  gap: 10px;
+}
+
+.logo {
+  width: 214px;
+}
+
+.platform-for-salon-success {
+  width: 160px;
+}
+
+.header {
+  font-family: "Be Vietnam Pro", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  color: rgb(16, 24, 40);
+}

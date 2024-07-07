@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="../global-style/fonts.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="poster"></div>
+    <div class="content">
+      <div class="logo-container">
+        <img class="logo" src="../img/logo.svg" alt="logo-icon" />
+        <img class="platform-for-salon-success" src="../img/platform-for-salon-success.svg" alt="logo-icon" />
+      </div>
+      <span class="header">Sign up to EasySalon</span>
+      <form action="" class="">
+        <div class="">
+          <div class="">
+            <label for="first-name">First name<span class="require-asterisk">*</span></label>
+            <input type="text" id="first-name" placeholder="Enter first name" required />
+            <div class="hint hint-first-name"></div>
+          </div>
+          <div class="">
+            <label for="last-name">Last name<span class="require-asterisk">*</span></label>
+            <input type="text" id="last-name" placeholder="Enter last name" required />
+            <div class="hint hint-last-name"></div>
+          </div>
+        </div>
+        <div class="">
+          <label for="email">Email<span class="require-asterisk">*</span></label>
+          <input type="email" id="email" placeholder="Enter email" required />
+          <div class="hint hint-email"></div>
+        </div>
+        <div class="">
+          <label for="password">Password<span class="require-asterisk">*</span></label>
+          <div class="password-and-security-eye">
+            <input type="password" id="password" placeholder="Enter password" required />
+            <button class="show-password-button"><img src="../img/security-eye.svg" alt=""></button>
+          </div>
+          <div class="hint hint-password"></div>
+        </div>
+        <button type="submit" class="">Get started</button>
+        <div class="alert-term-and-policy-container">
+          <p class="alert-term-and-policy">By clicking “Get Started", you are agreeing to the
+            <a href="" class="term link">General Terms</a>
+            &
+            <a href="" class="policy link">Privacy Policy</a>.
+          </p>
+        </div>
+        <div class="or-divider">
+          <div class="divider left-divider"></div>
+          <p>or</p>
+          <div class="divider right-divider"></div>
+        </div>
+        <div class="continue-with-other-options-container">
+          <button class="continue-with-google-button">
+            <img class="social-icon" alt="" src="../img/google-icon.svg" />
+            <span class="option-text">Continue with Google</span>
+          </button>
+          <button class="continue-with-facebook-button">
+            <img class="social-icon" alt="" src="../img/facebook-icon.svg" />
+            <span class="option-text">Continue with Facebook</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

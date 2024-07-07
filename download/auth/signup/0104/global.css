@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --text-sm-semibold: Lato;
+  --font-inter: Inter;
+  --font-poppins: Poppins;
+  --display-sm-bold: "Be Vietnam Pro";
+
+  /* font sizes */
+  --text-lg-regular-size: 18px;
+  --font-size-17xl: 36px;
+  --font-size-smi: 13px;
+  --font-size-8xl-9: 27.9px;
+  --font-size-mini-9: 14.9px;
+  --font-size-xs-2: 11.2px;
+  --font-size-xs: 12px;
+  --text-sm-semibold-size: 14px;
+  --text-md-bold-size: 16px;
+  --display-lg-medium-size: 48px;
+  --display-sm-bold-size: 30px;
+
+  /* Colors */
+  --colors-background-bg-primary: #fff;
+  --main-background-bg-brand-solid: #0c6ff3;
+  --component-colors-components-buttons-tertiary-color-button-tertiary-color-fg: #0b5dcc;
+  --colors-text-text-primary-900: #101828;
+  --component-colors-alpha-alpha-white-90: rgba(255, 255, 255, 0.9);
+  --colors-text-text-success-primary-600: #079455;
+  --colors-text-text-tertiary-600: #475467;
+  --main-text-text-secondary-700: #344054;
+  --colors-border-border-tertiary: #f2f4f7;
+  --component-colors-components-icons-featured-icons-modern-featured-icon-modern-border: #eaecf0;
+  --color-lightskyblue: #7cbbff;
+  --color-black: #000;
+  --main-border-border-primary: #d0d5dd;
+
+  /* Spacing */
+  --radius-xl: 16px;
+  --spacing-7xl: 64px;
+  --radius-3xl: 24px;
+  --spacing-4xl: 32px;
+  --spacing-xs: 4px;
+  --spacing-xxs: 2px;
+  --spacing-lg: 12px;
+  --spacing-sm: 6px;
+  --spacing-xl: 16px;
+  --radius-md: 12px;
+  --spacing-md: 8px;
+  --radius-lg: 14px;
+  --spacing-3xl: 24px;
+  --spacing-lg1: 12px;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-mini-9: 14.9px;
+  --gap-9xs-7: 3.7px;
+  --gap-xs-2: 11.2px;
+  --gap-5xs-4: 7.4px;
+  --gap-9xs: 4px;
+  --gap-7xs: 6px;
+  --gap-xs: 12px;
+
+  /* Paddings */
+  --padding-10xl-8: 29.8px;
+  --padding-3xl-3: 22.3px;
+  --padding-mini-9: 14.9px;
+  --padding-lg-6: 18.6px;
+  --padding-5xs-4: 7.4px;
+  --padding-11xs: 2px;
+  --padding-3xs: 10px;
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+
+  /* Border radiuses */
+  --br-18xl-2: 37.2px;
+  --br-5xs-4: 7.4px;
+  --br-base: 16px;
+  --br-mini-9: 14.9px;
+  --br-1207xl-7: 1226.7px;
+  --br-mini-7: 14.7px;
+  --br-5xs: 8px;
+  --br-xs: 12px;
+  --br-sm: 14px;
+
+  /* Effects */
+  --shadows-shadow-xs: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
+  --focus-rings-ring-brand-shadow-xs: 0px 1px 2px rgba(20, 118, 249, 0.05),
+    0px 0px 0px 4px rgba(20, 118, 249, 0.24);
+}
