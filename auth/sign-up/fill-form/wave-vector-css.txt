@@ -1,0 +1,176 @@
+#wave-vector-01 {
+
+}
+
+#wave-vector-02 {
+
+}
+
+#wave-vector-03 {
+
+}
+
+#wave-vector-04 {
+
+}
+
+#wave-vector-05 {
+
+}
+
+#wave-vector-06 {
+
+}
+
+#wave-vector-07 {
+
+}
+
+#wave-vector-08 {
+
+}
+
+#wave-vector-09 {
+
+}
+
+#wave-vector-10 {
+
+}
+
+#wave-vector-11 {
+
+}
+
+#wave-vector-12 {
+
+}
+
+#wave-vector-13 {
+
+}
+
+#wave-vector-14 {
+
+}
+
+#wave-vector-15 {
+
+}
+
+#wave-vector-16 {
+
+}
+
+#wave-vector-17 {
+
+}
+
+#wave-vector-18 {
+
+}
+
+#wave-vector-19 {
+
+}
+
+#wave-vector-20 {
+
+}
+
+#wave-vector-21 {
+
+}
+
+#wave-vector-22 {
+
+}
+
+#wave-vector-23 {
+
+}
+
+#wave-vector-24 {
+
+}
+
+#wave-vector-25 {
+
+}
+
+#wave-vector-26 {
+
+}
+
+#wave-vector-27 {
+
+}
+
+#wave-vector-28 {
+
+}
+
+#wave-vector-29 {
+
+}
+
+#wave-vector-30 {
+
+}
+
+#wave-vector-31 {
+
+}
+
+#wave-vector-32 {
+
+}
+
+#wave-vector-33 {
+
+}
+
+#wave-vector-34 {
+
+}
+
+#wave-vector-35 {
+
+}
+
+#wave-vector-36 {
+
+}
+
+#wave-vector-37 {
+
+}
+
+#wave-vector-38 {
+
+}
+
+#wave-vector-39 {
+
+}
+
+#wave-vector-40 {
+
+}
+
+#wave-vector-41 {
+
+}
+
+#wave-vector-42 {
+
+}
+
+#wave-vector-43 {
+
+}
+
+#wave-vector-44 {
+
+}
+
