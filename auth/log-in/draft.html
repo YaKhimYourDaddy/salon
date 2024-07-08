@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizontal Overflow Example</title>
+  <style>
+    .container {
+      width: 200px;
+      height: 50px;
+      border: 1px solid black;
+      margin-bottom: 20px;
+    }
+
+    .horizontal-overflow-visible {
+      overflow-x: visible;
+      white-space: nowrap;
+    }
+
+    .horizontal-overflow-scroll {
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+
+    .horizontal-overflow-hidden {
+      overflow-x: hidden;
+      white-space: nowrap;
+    }
+
+    .horizontal-text-overflow-ellipsis {
+      overflow-x: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container horizontal-overflow-visible">
+    <p>This is a long text that will overflow the div horizontally without clipping.</p>
+  </div>
+
+  <div class="container horizontal-overflow-scroll">
+    <p>This is a long text that will overflow the div horizontally with a scrollbar.</p>
+  </div>
+
+  <div class="container horizontal-overflow-hidden">
+    <p>This is a long text that will overflow the div horizontally but will be hidden.</p>
+  </div>
+
+  <div class="container horizontal-text-overflow-ellipsis">
+    <p>This is a long text that will overflow the div horizontally but will be truncated with an ellipsis.</p>
+  </div>
+
+</body>
+
+</html>
