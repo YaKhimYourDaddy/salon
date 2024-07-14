@@ -1,0 +1,61 @@
+@import url("../global-style/fonts.css");
+
+@import url("../global-style/styleguide.css");
+
+
+.content-area {
+  gap: var(--spacing-7xl, 64px);
+}
+
+.action-section {
+  gap: 12px;
+  margin-top: -12px;
+}
+
+.password-actions-container {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.remember-me-wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md, 8px);
+  position: relative;
+}
+
+.remember-me-checkbox {
+  border-radius: var(--spacing-xs, 4px);
+  border: 1px solid var(--Colors-Border-border-primary, #D0D5DD);
+  width: 16px;
+  height: 16px;
+}
+
+.remember-me-label {
+  color: var(--main-text-text-secondary-700, #344054);
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+}
+
+.supporting-text {
+  color: var(--colors-text-text-tertiary-600, #475467);
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  align-self: stretch;
+  visibility: hidden;
+  position: absolute;
+  bottom: -25px;
+  white-space: nowrap;
+  /* overflow: visible; */
+  /* overflow-x: visible; */
+}
+
+.forgot-password-button {
+  color: var(--main-text-text-brand-tertiary-600, #0B5DCC);
+  font-family: "Inter";
+  font-weight: 600;
+  border: none;
+}

@@ -1,4 +1,4 @@
-@import url(../global-style/fonts.css);
+@import url(../../global-style/fonts.css);
 
 body {
   display: flex;
@@ -11,19 +11,21 @@ body {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
-}
 
-/* button:focus-visible {
-  outline: 2px solid #4a90e2 !important;
-  outline: -webkit-focus-ring-color auto 5px !important;
-} */
+  font-family: "Lato", Helvetica;
+  font-style: normal;
+  line-height: 20px;
+  font-size: 14px;
+}
 
 a {
   text-decoration: none;
 }
 
+a:hover,
 button:hover {
   cursor: pointer;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 .container {
@@ -32,7 +34,6 @@ button:hover {
   height: 900px;
   justify-content: center;
   align-items: flex-start;
-  background: var(--Colors-Background-bg-primary, #FFF);
 }
 
 .poster-area {
@@ -48,11 +49,10 @@ button:hover {
   padding: var(--spacing-6xl, 48px) 32px;
   flex-direction: column;
   align-items: center;
-  gap: var(--spacing-5xl, 40px);
   flex-shrink: 0;
   align-self: stretch;
   border-radius: var(--radius-3xl, 24px);
-  background: var(--Main-Background-bg-primary, #FFF);
+  gap: var(--spacing-7xl, 64px);
 }
 
 .logo-wrapper {
@@ -79,35 +79,86 @@ button:hover {
   gap: var(--spacing-4xl, 32px);
 }
 
-.header {
-  align-self: stretch;
-
-  color: var(--colors-text-text-primary-900, #101828);
-  text-align: center;
-
-  /* Display sm/Bold */
-  font-family: "Be Vietnam Pro", Helvetica;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  /* 126.667% */
-  line-height: 38px;
-}
-
-.form-and-action-container {
+.header-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: var(--spacing-3xl, 24px);
   align-self: stretch;
-  border-radius: var(--spacing-lg, 12px);
 }
+
+.header-icon-wrapper {
+  display: flex;
+  padding: 14px;
+  align-items: center;
+  border-radius: var(--spacing-lg, 12px);
+  border: 1px solid var(--Component-colors-Components-Icons-Featured-icons-Modern-featured-icon-modern-border, #EAECF0);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  height: 56px;
+  width: 56px;
+}
+
+.header-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.header-and-message-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-lg, 12px);
+  align-self: stretch;
+}
+
+
+.message-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.message {
+  color: var(--colors-text-text-tertiary-600, #475467);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.email-address {
+  color: var(--colors-text-text-tertiary-600, #475467);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.header {
+  align-self: stretch;
+  color: var(--colors-text-text-primary-900, #101828);
+  text-align: center;
+  font-family: "Be Vietnam Pro", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+/* .form-and-action-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-3xl, 24px);
+  align-self: stretch;
+} */
 
 form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: var(--spacing-2xl, 20px);
+  gap: 16px;
   align-self: stretch;
 }
 
@@ -116,16 +167,15 @@ form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: var(--spacing-sm, 6px);
+  gap: 6px;
   flex: 1 0 0;
+  padding: 0px 5px;
+  border-radius: 12px;
 }
 
-.label-input-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: var(--spacing-sm, 6px);
-  align-self: stretch;
+.label-input-hint-wrapper:focus-within,
+.label-input-hint-wrapper:hover {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 .label-wrapper {
@@ -134,71 +184,40 @@ form {
   align-self: stretch;
 }
 
-.label-inner-wrapper {
-  display: flex;
-  align-items: center;
-  flex: 1 0 0;
-}
-
 .label {
   color: var(--main-text-text-secondary-700, #344054);
-
-  /* Text sm/Semibold */
-  font-family: "Lato", Helvetica;
-  font-size: 14px;
-  font-style: normal;
   font-weight: 600;
-  line-height: 20px;
-  /* 142.857% */
 }
 
 .require-asterisk {
   color: var(--main-text-text-error-primary-600, #D92D20);
-
-  /* Text sm / Bold */
-  font-family: "Lato", Helvetica;
-  font-size: 14px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 20px;
-  /* 142.857% */
 }
 
 .input-wrapper {
   display: flex;
   height: 39px;
   width: 100%;
-  padding: 10px 14px;
+  padding: 8px 12px;
   align-items: center;
   gap: var(--spacing-md, 8px);
   align-self: stretch;
 
   border-radius: var(--radius-md, 12px);
-  border: 1px solid var(--Main-Border-border-secondary, #EAECF0);
-  background: var(--Main-Background-bg-primary, #FFF);
+  /* border: 1px solid var(--Main-Border-border-secondary, #EAECF0); */
 }
 
 .input-wrapper:focus-within {
-  border-color: black;
+  /* border-color: black; */
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 .input-text {
-  /* display: -webkit-box; */
-  /* -webkit-box-orient: vertical; */
-  /* -webkit-line-clamp: 1; */
   flex: 1 0 0;
-
   overflow: hidden;
-  color: var(--Main-Text-text-placeholder, #667085);
+  /* color: var(--Main-Text-text-placeholder, #667085); */
   text-overflow: ellipsis;
-
-  /* Text sm/Regular */
-  font-family: "Lato", Helvetica;
-  font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 20px;
-  /* 142.857% */
   border: none;
 }
 
@@ -212,44 +231,36 @@ form {
   background-color: transparent;
 }
 
+.respond {
+  color: var(--main-text-text-error-primary-600, #D92D20);
+  font-weight: 400;
+  visibility: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  align-self: stretch;
+  text-align: center;
+}
+
 .action-section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: var(--spacing-3xl, 24px);
+  gap: 32px;
   align-self: stretch;
 }
 
 .blue-button {
-  display: flex;
   padding: 10px var(--spacing-xl, 16px);
-  justify-content: center;
-  align-items: center;
-  gap: var(--spacing-sm, 6px);
   align-self: stretch;
-
   border-radius: var(--radius-md, 12px);
   border: 1px solid var(--Component-colors-Components-Buttons-Primary-button-primary-border, #0C6FF3);
   background: var(--Component-colors-Components-Buttons-Primary-button-primary-bg, #0C6FF3);
-}
-
-.blue-button-text-wrapper {
-  display: flex;
-  padding: var(--spacing-none, 0px) var(--spacing-xxs, 2px);
-  justify-content: center;
-  align-items: center;
-}
-
-.blue-button-text {
   color: var(--Component-colors-Components-Buttons-Primary-button-primary-fg, #FFF);
-
-  /* Text md/Semibold */
-  font-family: "Lato", Helvetica;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
+  /* font-weight: 600; */
   line-height: 24px;
-  /* 150% */
 }
 
 .or-divider {
@@ -263,21 +274,13 @@ form {
 .right-divider {
   height: 1px;
   flex: 1 0 0;
-
   background: var(--Main-Border-border-secondary, #EAECF0);
 }
 
 .or-text {
   color: var(--main-text-text-tertiary-600, #475467);
   text-align: center;
-
-  /* Text sm/Medium */
-  font-family: "Lato", Helvetica;
-  font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 20px;
-  /* 142.857% */
 }
 
 .social-button-container {
@@ -309,14 +312,9 @@ form {
 
 .social-button-text {
   color: var(--main-text-text-secondary-700, #344054);
-
-  /* Text md/Semibold */
-  font-family: "Lato", Helvetica;
   font-size: 16px;
-  font-style: normal;
   font-weight: 600;
   line-height: 24px;
-  /* 150% */
 }
 
 .not-this-page {
@@ -329,110 +327,31 @@ form {
 
 .question {
   color: var(--colors-text-text-tertiary-600, #475467);
-
-  /* Text sm/Regular */
-  font-family: "Lato", Helvetica;
-  font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 20px;
-  /* 142.857% */
 }
 
 .another-option {
+  font-weight: 600;
+  color: var(--main-text-text-brand-tertiary-600, #0B5DCC);
+}
+
+.back-button {
   display: flex;
-  padding: var(--spacing-none, 0px);
   justify-content: center;
   align-items: center;
-  gap: var(--spacing-xs, 4px);
-
-  border-radius: var(--radius-md, 12px);
-  border: none;
-
-  color: var(--Component-colors-Components-Buttons-Tertiary-color-button-tertiary-color-fg, #0B5DCC);
-
-  /* Text sm/Semibold */
-  font-family: "Lato", Helvetica;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 20px;
-  /* 142.857% */
-
-  background-color: transparent;
-}
-
-.password-actions-container {
-  display: flex;
-  align-items: center;
-  align-self: stretch;
-  justify-content: space-between;
-}
-
-.remember-me-wrapper {
-  display: flex;
-  align-items: center;
   gap: var(--spacing-md, 8px);
-}
-
-.remember-me-checkbox {
-  border-radius: var(--spacing-xs, 4px);
-  border: 1px solid var(--Colors-Border-border-primary, #D0D5DD);
-  width: 16px;
-  height: 16px;
-}
-
-.label-and-supporting-text-wrapper {
-  /* for supporting-text */
-  position: relative;
-}
-
-.remember-me-label {
-  color: var(--main-text-text-secondary-700, #344054);
-
-  /* Text sm/Medium */
-  font-family: "Inter";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  /* 142.857% */
-  /* for supporting-text */
-  position: relative;
-}
-
-.supporting-text {
-  color: var(--colors-text-text-tertiary-600, #475467);
-
-  /* Text sm/Regular */
-  font-family: "Inter";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  /* 142.857% */
-  align-self: stretch;
-
-  /* my adjust */
-  display: none;
-  position: absolute;
-  overflow: visible;
-  bottom: -20px;
-  overflow-x: visible;
-  white-space: nowrap;
-}
-
-.forgot-password-button {
-  color: var(--main-text-text-brand-tertiary-600, #0B5DCC);
-
-  /* Text sm/Semibold */
-  font-family: "Inter";
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 20px;
-  /* 142.857% */
-
-  /* my adjust */
   border: none;
+  margin: auto;
+}
+
+#back-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.back-button-text {
+  color: var(--Component-colors-Components-Buttons-Tertiary-button-tertiary-fg, #475467);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
 }

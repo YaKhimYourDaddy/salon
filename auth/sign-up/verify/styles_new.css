@@ -1,0 +1,58 @@
+@import url("../../global-style/fonts.css");
+
+@import url("../../global-style/styleguide.css");
+
+
+.content-area {
+  gap: var(--spacing-7xl, 64px);
+}
+
+.verification-code-input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-sm, 6px);
+  align-self: stretch;
+  position: relative;
+}
+
+.all-input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.input-wrapper {
+  display: flex;
+  width: 80px;
+  min-height: 80px;
+  padding: var(--spacing-md, 8px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-md, 8px);
+  border-radius: var(--radius-lg, 14px);
+  border: 2px solid var(--Main-Border-border-brand-solid, #0C6FF3);
+}
+
+.input-wrapper:focus-within {
+  box-shadow: 0px 1px 2px 0px rgba(20, 118, 249, 0.05), 0px 0px 0px 4px rgba(20, 118, 249, 0.24);
+}
+
+.input-digit {
+  align-self: stretch;
+  color: var(--main-text-text-brand-tertiary-500, #0C6FF3);
+  text-align: center;
+  font-family: "Be Vietnam Pro";
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: -0.96px;
+  border: none;
+}
+
+.input-digit:focus {
+  border: none;
+  outline: none;
+}

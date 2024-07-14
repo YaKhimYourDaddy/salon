@@ -1,0 +1,35 @@
+@import url("../../global-style/fonts.css");
+
+@import url("../../global-style/styleguide.css");
+
+
+.content-area {
+  gap: var(--spacing-5xl, 40px);
+}
+
+.action-section {
+  gap: 12px;
+}
+
+.name-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  align-self: stretch;
+  width: 100%;
+}
+
+.action-section {
+  margin-top: -12px;
+}
+
+.term-and-policy-alert {
+  align-self: stretch;
+  color: var(--main-text-text-secondary-700, #344054);
+  font-weight: 400;
+}
+
+.term-and-policy-link {
+  color: var(--main-text-text-brand-tertiary-600, #0B5DCC);
+  font-weight: 400;
+}

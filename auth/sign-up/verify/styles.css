@@ -1,5 +1,11 @@
 @import url(../../global-style/fonts.css);
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -237,15 +243,11 @@ button:hover {
 
 .wrong-code-alert {
   color: var(--main-text-text-error-primary-600, #D92D20);
-
-  /* Text sm/Regular */
   font-family: "Lato", Helvetica;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
-  /* 142.857% */
-
   display: none;
 }
 
